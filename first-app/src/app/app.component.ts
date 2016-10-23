@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-        <h1>Inline Template</h1>
+        <h1>root component</h1>
         <fa-databinding></fa-databinding>
     `
 })

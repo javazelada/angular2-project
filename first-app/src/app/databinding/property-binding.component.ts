@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'fa-property-binding',
@@ -6,7 +6,10 @@ import { Component, Input } from '@angular/core';
     {{result}}
   `,
   styles: []
+
 })
 export class PropertyBindingComponent  {
-  @Input() result: number = 0; 
+  @Input() result: number = 0;
+
 }
+
